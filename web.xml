@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+         version="3.1">
+
+    <display-name>MidMarksSystem</display-name>
+
+    <servlet>
+        <servlet-name>FacultyLoginServlet</servlet-name>
+        <servlet-class>servlet.FacultyLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FacultyLoginServlet</servlet-name>
+        <url-pattern>/FacultyLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HODLoginServlet</servlet-name>
+        <servlet-class>servlet.HODLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HODLoginServlet</servlet-name>
+        <url-pattern>/HODLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>HodLoadStudentsServlet</servlet-name>
+    <servlet-class>servlet.HodLoadStudentsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>HodLoadStudentsServlet</servlet-name>
+    <url-pattern>/HodLoadStudentsServlet</url-pattern>
+</servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+    <servlet-name>LoadStudentsServlet</servlet-name>
+    <servlet-class>servlet.LoadStudentsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LoadStudentsServlet</servlet-name>
+    <url-pattern>/LoadStudentsServlet</url-pattern>
+</servlet-mapping>
+
+    
+    <servlet>
+    <servlet-name>GenerateAverageServlet</servlet-name>
+    <servlet-class>servlet.GenerateAverageServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerateAverageServlet</servlet-name>
+    <url-pattern>/GenerateAverageServlet</url-pattern>
+</servlet-mapping>
+    
+    
+
+    <servlet>
+        <servlet-name>EnterMarksServlet</servlet-name>
+        <servlet-class>servlet.EnterMarksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EnterMarksServlet</servlet-name>
+        <url-pattern>/EnterMarksServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveMarksServlet</servlet-name>
+        <servlet-class>servlet.SaveMarksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveMarksServlet</servlet-name>
+        <url-pattern>/SaveMarksServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
