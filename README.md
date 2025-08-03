@@ -58,7 +58,7 @@ For each student, average is calculated as:
 
 ## 📸 Screenshots (Optional)
 
-_Add screenshots of your pages (login, dashboard, mid marks table, etc.) here._
+
 
 ---
 
